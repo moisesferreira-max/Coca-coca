@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    display: flex;
+    height: 100%;
+}
+.logoCoca{
+    background: linear-gradient(#CF2425,#ec8080,#DA3B3F);
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.Garrafa{
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    height: 80%;
+    top: 14%;
+    left: 43%;
+}
+.escrita{
+    display: flex;
+    position: absolute;
+    z-index: 998;
+    font-size: 60px;
+    color: white;
+    top: 48%;
+    left: 32%;
+}
+.mapa{
+    display: flex;
+    position: absolute;
+    z-index: 997;
+    height: 60px;
+    top: 90%;
+    left: 90%;
+}
+.menu{
+    display: flex;
+    position: absolute;
+    z-index: 996;
+    height: 30px;
+    top: 5%;
+    left: 5%;
+}
+@media (max-width:768px){
+    header{
+        padding-left: 25px;
+    }
+    .content-text{
+        transform: translateX(0);
+        top: 75px;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 150px;
+    }
+    .content-image{
+        height: 65vh;
+    }
+    footer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    }
+
+
